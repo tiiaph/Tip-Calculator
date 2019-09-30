@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    background: #24f0b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #24f0b9, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #24f0b9, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3.5em;
+    letter-spacing: 1.5px;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: none;
+    margin: 0 auto;
+    text-align:  center;
+    padding-top: 2em;
+}
+
+#calculator {
+    width: 80%;
+    height: 80%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#bill > p,
+#people > p,
+#service > p {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-align:  center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 2.5em;
+    border: none;
+    background: none;
+    text-align:  center;
+    color: white;
+    font-size: 1.6em;
+}
+
+input:focus{
+    outline: none;
+    color: white;
+    text-align:  center;
+    font-size: 1.6em;
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+    opacity: .7;
+}
+
+
+
+#calculate {
+    margin-top: 1em;
+    padding: 1em 2em;
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    background-color: #00d0ff0e;
+    box-shadow: 1px 1px 10px #659c8f;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+#calculate:focus {
+    outline: none;
+}
+
+#calculate:active {
+    box-shadow: 1px 1px 15px #0c7258;
+    transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -moz-transform: scale(.95);
+    -ms-transform: scale(.95);
+    -o-transform: scale(.95);
+    -webkit-transform: scale();
+}
+
+#result {
+    font-size: 1.8em;
+    margin-top: 1.2em;
+}
+
+.face-selectors label > input[type="radio"] {
+    visibility: hidden;
+    position:  absolute;
+}
+
+.face-selectors label > input[type="radio"] ~ span {
+    cursor: pointer;
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+    background-size: 5em 5em;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+}
+
+.excellent-icon {
+    background-image: url(/images/grin-hearts-regular.svg);
+    padding-right: 3em;
+}
+
+.good-icon {
+    background-image: url(/images/smile-regular.svg);
+    padding-right: 3em;
+}
+
+.average-icon {
+    background-image: url(/images/meh-regular.svg);
+    padding-right: 3em;
+}
+
+.poor-icon {
+    background-image: url(/images/frown-regular.svg);
+}
+
+.face-selectors label > input[type="radio"]:checked ~ span.excellent-icon {
+    background-image: url(/images/grin-hearts-solid.svg);
+}
+.face-selectors label > input[type="radio"]:checked ~ span.good-icon {
+    background-image: url(/images/smile-solid.svg);
+}
+.face-selectors label > input[type="radio"]:checked ~ span.average-icon {
+    background-image: url(/images/meh-solid.svg);
+}
+.face-selectors label > input[type="radio"]:checked ~ span.poor-icon {
+    background-image: url(/images/frown-solid.svg);
+}

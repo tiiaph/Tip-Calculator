@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>TIP CALCULATOR</h1>
+
+        <div id="calculator">
+            <div id="bill">
+            <p>Bill Amount: </p>
+            <input type="text" placeholder="Bill amount" id="billAmount">
+        </div>
+          
+            <form name="form" class="face-selectors" id="service" style="text-align: center;">
+                
+                <p>Rate your service</p><br>
+                    <label for="excellent">
+                    <input type="radio" class="smiley" name="smiley" value=".2" id="excellent" checked>
+                    <span class="excellent-icon"></span>
+                
+                </label>
+                    <label for="good">
+                    <input type="radio" class="smiley" name="smiley" value=".15" id="good">
+                    <span class="good-icon"></span>
+                </label>
+
+                </label>
+                    <label for="average">
+                    <input type="radio" class="smiley" name="smiley" value=".05" id="average">
+                    <span class="average-icon"></span>
+                </label>
+                </label>
+                    <label for="poor">
+                    <input type="radio" class="smiley" name="smiley" value=".0" id="poor">
+                    <span class="poor-icon"></span>
+                </label>
+
+
+            </form>
+
+            
+            <div id="people">
+            <p>How many people are sharing the bill?</p>
+            <input type="text" placeholder="Number of people" id="noOfPeople">
+        </div>
+            <div style="text-align: center;">
+            <button type="button" id="calculate">Calculate tip</button>
+        </div>
+        <div id="result" style="text-align: center;">Tip amount: &pound; <br> Each person pays: &pound;</div>
+        </div>
+        
+    </div>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>
