@@ -116,33 +116,33 @@ input:focus{
 }
 
 .excellent-icon {
-    background-image: url(https://i.postimg.cc/MGctsyXn/grin-hearts-regular.png);
+    background-image: url(https://i.postimg.cc/vT9ZXSw0/grin-hearts-regular.png);
     padding-right: 3em;
 }
 
 .good-icon {
-    background-image: url(https://i.postimg.cc/NMmDtB6Y/smile-regular.png);
+    background-image: url(https://i.postimg.cc/wxWyBnwd/smile-regular.png);
     padding-right: 3em;
 }
 
 .average-icon {
-    background-image: url(https://i.postimg.cc/LsrDGnZN/meh-regular.png);
+    background-image: url(https://i.postimg.cc/KzCYPhwK/meh-regular.png);
     padding-right: 3em;
 }
 
 .poor-icon {
-    background-image: url(https://i.postimg.cc/7YVBbHpZ/frown-regular.png);
+    background-image: url(https://i.postimg.cc/43NnZ5p3/frown-regular.png);
 }
 
 .face-selectors label > input[type="radio"]:checked ~ span.excellent-icon {
-    background-image: url(https://i.postimg.cc/mggm9xsN/grin-hearts-solid.png);
+    background-image: url(https://i.postimg.cc/Zq7nqdLx/grin-hearts-solid.png);
 }
 .face-selectors label > input[type="radio"]:checked ~ span.good-icon {
-    background-image: url(https://i.postimg.cc/rsTJF3j4/smile-solid.png);
+    background-image: url(https://i.postimg.cc/J4GyHKFH/smile-solid.png);
 }
 .face-selectors label > input[type="radio"]:checked ~ span.average-icon {
-    background-image: url(https://i.postimg.cc/htZpbC4F/meh-solid.png);
+    background-image: url(https://i.postimg.cc/ZRWRv57t/meh-solid.png);
 }
 .face-selectors label > input[type="radio"]:checked ~ span.poor-icon {
-    background-image: url(https://i.postimg.cc/gkdSYXt7/frown-solid.png);
+    background-image: url(https://i.postimg.cc/y8TWw5g5/frown-solid.png);
 }
