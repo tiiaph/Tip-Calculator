@@ -116,33 +116,33 @@ input:focus{
 }
 
 .excellent-icon {
-    background-image: url(https://www.mediafire.com/view/v1hy05lqgir9hdj/grin-hearts-regular.svg/file);
+    background-image: url(https://i.postimg.cc/MGctsyXn/grin-hearts-regular.png);
     padding-right: 3em;
 }
 
 .good-icon {
-    background-image: url(https://www.mediafire.com/view/87wz962xpjahzsh/smile-regular.svg/file);
+    background-image: url(https://i.postimg.cc/NMmDtB6Y/smile-regular.png);
     padding-right: 3em;
 }
 
 .average-icon {
-    background-image: url(https://www.mediafire.com/view/jv82zgbkwfxm4be/meh-regular.svg/file);
+    background-image: url(https://i.postimg.cc/LsrDGnZN/meh-regular.png);
     padding-right: 3em;
 }
 
 .poor-icon {
-    background-image: url(https://www.mediafire.com/view/5n9wo99xysfjgqv/frown-solid.svg/file);
+    background-image: url(https://i.postimg.cc/7YVBbHpZ/frown-regular.png);
 }
 
 .face-selectors label > input[type="radio"]:checked ~ span.excellent-icon {
-    background-image: url(https://www.mediafire.com/view/3e555qgnlyr5q42/grin-hearts-solid.svg/file);
+    background-image: url(https://i.postimg.cc/mggm9xsN/grin-hearts-solid.png);
 }
 .face-selectors label > input[type="radio"]:checked ~ span.good-icon {
-    background-image: url(https://www.mediafire.com/view/nfitxnue5b2h04v/smile-solid.svg/file);
+    background-image: url(https://i.postimg.cc/rsTJF3j4/smile-solid.png);
 }
 .face-selectors label > input[type="radio"]:checked ~ span.average-icon {
-    background-image: url(https://www.mediafire.com/view/32oq5yd0pfi4re5/meh-solid.svg/file);
+    background-image: url(https://i.postimg.cc/htZpbC4F/meh-solid.png);
 }
 .face-selectors label > input[type="radio"]:checked ~ span.poor-icon {
-    background-image: url(https://www.mediafire.com/view/5n9wo99xysfjgqv/frown-solid.svg/file);
+    background-image: url(https://i.postimg.cc/gkdSYXt7/frown-solid.png);
 }
